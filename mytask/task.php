@@ -29,7 +29,7 @@
   По желанию можете сделать проверку на корректность введения данных пользователем.
 
 
-  <form action="#innum" method="GET" role="form">
+  <form action="<?=$_SERVER['SCRIPT_NAME']?>" method="GET" role="form">
   	<legend>Ввести число</legend>
 
   	<div class="form-group col-xs-6 col-md-4">
